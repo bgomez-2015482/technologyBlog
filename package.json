@@ -1,0 +1,24 @@
+{
+  "name": "Blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "live-server --port=3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bgomez-2015482/technologyBlog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bgomez-2015482/technologyBlog/issues"
+  },
+  "homepage": "https://github.com/bgomez-2015482/technologyBlog#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
