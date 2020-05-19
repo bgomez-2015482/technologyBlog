@@ -1,0 +1,260 @@
+body{
+    background-color: #ECECEC;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin: 0;
+}
+
+*{
+    font-family: Lato;
+}
+
+.header{
+    background: #1eb5e4; /*5D5D5D*/
+    color: white;
+    padding: 0rem 0;
+    position: fixed;
+    Left: 0;
+    top: 0;
+    right: 0;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding: 0rem 5rem;
+}
+
+.navigation ul li{
+    display: inline-block;
+}
+
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+
+.navigation ul li a:hover{
+    background: #5CD0F4;
+}
+
+.logo{
+    letter-spacing: 0px;
+    font-size: 1.4em;
+}
+
+.logo h2{
+    padding: 0rem 3rem;
+}
+
+
+.menu-icon{
+    display: none;
+}
+
+.main{
+    padding: 4rem;
+    padding-top: 8rem;
+}
+
+.footer{
+    width: 100%;
+    background: #1eb5e4;
+    color: black;
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1100px;
+    /* margin: auto; */
+    padding: 40px;
+    padding-left: 70px;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-column1{
+    text-align: justify;
+    letter-spacing: 0px;
+}
+
+.column1{
+    max-width: 400px;
+    padding-left: 50px;
+}
+
+.column1 h1{
+    font-size: 22px;
+    color: white;
+}
+
+.column1 p{
+    font-size: 14px;
+    color: black;
+    margin-top: 20px;
+}
+
+.row{
+    display: inline-block;
+    padding-left: 13px;
+    margin: 0.1px;
+}
+
+.row img{
+    width: 36px;
+    height: 36px;
+}
+
+.row a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.column3{
+    max-width: 400px;
+    padding-right: 30px;
+}
+
+.column3 h1{
+    font-size: 22px;
+    color: white;
+}
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 160px;
+    color: black;
+}
+
+.container-footer{
+    width: 100%;
+    background: #4B4B4B;
+}
+
+.footerI{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.copyright{
+    color: white;
+    font-size: 1.1rem;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.information a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.containerC{
+    padding: 0rem;
+    padding-top: 10px;
+}
+
+ 
+.generalContainer{
+    background-color: #ECECEC;
+    width: 1220px;
+    height: 980px;
+}
+
+ 
+.containerTop{
+    float: initial;
+    width: 750px;
+    height: 40px;
+    background-color: #ECECEC;
+}
+ 
+.containerRight{
+    padding-top: 10px;
+    float: right;
+    width: 400px;
+    height: 730px;
+    background-color: #CFCFCF; /* E3E3E3*/
+    border-radius: 8px;
+}
+ 
+.containerCenter{
+    float: left;
+    width: 750px;
+    height: 820px;
+    background-color: #ECECEC; /*#D6D6D6*/
+    padding-top: 20px;
+}
+
+.mindf-radius{
+    border-radius: 20px;
+}
+
+.text-mindf{
+    margin: 10px;
+    padding-top: 20px;
+    text-align: justify;
+}
+
+.button-t5{
+    float: left;
+    width: 750px;
+    height: 80px;
+    background-color: #ECECEC;
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 0px;
+}
+
+.button5{
+    width: 150px;
+    height: 30px;
+    background-color: #CFCFCF;
+    border-radius: 10px;
+}
+
+.button5:hover{
+    background-color: #B2B2B2;
+    transition: all 0.4s linear;
+}
+
+.text-button5{
+    text-decoration: none;
+    color: black;
+}
