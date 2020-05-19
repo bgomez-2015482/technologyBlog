@@ -194,7 +194,7 @@ body{
 .generalContainer{
     background-color: #ECECEC;
     width: 1220px;
-    height: 1100px;
+    height: 1300px;
 }
 
  
@@ -217,7 +217,7 @@ body{
 .containerCenter{
     float: left;
     width: 750px;
-    height: 950px;
+    height: 1000px;
     background-color: #ECECEC; /*#D6D6D6*/
     padding-top: 20px;
 }
@@ -228,3 +228,29 @@ body{
     text-align: justify;
 }
 
+.button-t4{
+    float: left;
+    width: 750px;
+    height: 80px;
+    background-color: #ECECEC;
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 0px;
+}
+
+.button4{
+    width: 150px;
+    height: 30px;
+    background-color: #CFCFCF;
+    border-radius: 10px;
+}
+
+.button4:hover{
+    background-color: #B2B2B2;
+    transition: all 0.4s linear;
+}
+
+.text-button4{
+    text-decoration: none;
+    color: black;
+}

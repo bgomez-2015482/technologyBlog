@@ -208,14 +208,14 @@ body{
     float: right;
     width: 400px;
     height: 850px;
-    background-color: #CFCFCF; /* E3E3E3*/
+    background-color: #ECECEC; /* E3E3E3*/
     border-radius: 8px;
 }
  
 .containerCenter{
     float: left;
     width: 750px;
-    height: 220px;
+    height: 850px;
     background-color: #ECECEC; /*#D6D6D6*/
     padding-top: 20px;
 }
@@ -229,10 +229,10 @@ body{
 .button-t2{
     float: left;
     width: 750px;
-    height: 80px;
+    height: 60px;
     background-color: #ECECEC;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 30px;
     margin-top: 0px;
 }
 
@@ -252,4 +252,5 @@ body{
     text-decoration: none;
     color: black;
 }
+
 
